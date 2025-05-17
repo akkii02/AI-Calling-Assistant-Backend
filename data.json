@@ -1,0 +1,12 @@
+[
+  {
+    "script": "Hi there! My name is Sanjay, and I’m a Software Engineer at provaantech. I hold a Bachlor's in Computer Science and have been working in the tech industry for 5 years. \nMy expertise lies in {{skills.join(\", \")}}, allowing me to build robust web applications and scalable backend solutions. I’m passionate about creating efficient, user-friendly, and high-performing applications.  \nIf you’d like to connect, feel free to reach out via email at {{contact.email}} or give me a call at {{contact.phone}}. I’m always open to discussing new opportunities, collaborations, and exciting projects.  \nLooking forward to connecting with you! 🚀",
+    "mobile": "+1234567890",
+    "prompt": "Bachlor's in Computer Science"
+  },
+  {
+    "script": "Hi there! My name is John Smith, and I’m a DevOps Engineer at CloudTech. I hold a Bachelor's in IT and have been working in the tech industry for 3 years. \nMy expertise lies in {{skills.join(\", \")}}, allowing me to build robust web applications and scalable backend solutions. I’m passionate about creating efficient, user-friendly, and high-performing applications.  \nIf you’d like to connect, feel free to reach out via email at {{contact.email}} or give me a call at {{contact.phone}}. I’m always open to discussing new opportunities, collaborations, and exciting projects.  \nLooking forward to connecting with you! 🚀",
+    "mobile": "+1987654321",
+    "prompt": "Bachelor's in IT"
+  }
+]

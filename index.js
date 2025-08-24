@@ -26,7 +26,9 @@ if (!ELEVENLABS_API_KEY || !ELEVENLABS_AGENT_ID || !TWILIO_ACCOUNT_SID || !TWILI
 const twilioClient = twilio(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 app.use(express.json());
-
+app.post('/',async(req,res)=>{
+    res.json({message:"Hello Server is Running..."})
+})
 app.post('/make-call', async (req, res) => {
     const { to, prompt, initialScript } = req.body;
     if (!to) return res.status(400).json({ error: 'Phone number ("to") is required' });
